@@ -13,4 +13,27 @@
 }
 .nav__link {
   color: inherit;
+  position: relative;
+}
+.nav__notification {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+}
+.nav__dot-notification {
+  background-color: red;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: -5px;
 }
